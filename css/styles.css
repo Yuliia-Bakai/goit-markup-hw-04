@@ -39,6 +39,7 @@ p {
   font-size: 26px;
   line-height: 1.19;
   color: var(--brend-color);
+  margin-right: 94px;
 }
 
 .list {
@@ -69,7 +70,6 @@ p {
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: var(--main-title-color);
-  margin-right: 94px;
 }
 
 .header-list {
@@ -379,18 +379,17 @@ p {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   color: #ffffff;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-list {
   display: inline-block;
   padding-top: 0;
-  margin-bottom: 9px;
   font-style: normal;
   letter-spacing: 0.03em;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -433,7 +432,7 @@ p {
 }
 
 .footer-box {
-  padding-left: 70px;
+  margin-left: 70px;
 }
 
 .footer-title {
